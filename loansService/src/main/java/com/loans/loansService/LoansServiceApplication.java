@@ -13,6 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScans({ @ComponentScan("com.loans.loansService.controller") })
 @EnableJpaRepositories("com.loans.loansService.repository")
 @EntityScan("com.loans.loansService.model")
+
 public class LoansServiceApplication {
 
 	public static void main(String[] args) {

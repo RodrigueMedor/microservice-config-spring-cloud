@@ -2,6 +2,7 @@ version: "3.8"
 
 services:
 
+
   configserver:
     image: test14/configserver:latest
     mem_limit: 700m
